@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Life Bucket List</title>
+  <meta name="description" content="Privacy Policy for Life Bucket List, the Android app for planning, tracking and completing your life goals. Your goals stay on your device: no accounts, no ads, no analytics.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#00897B">
+  <meta name="color-scheme" content="light">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Life Bucket List">
+  <meta property="og:title" content="Privacy Policy – Life Bucket List">
+  <meta property="og:description" content="Your goals stay on your device. Life Bucket List has no accounts, no ads, no analytics and no internet access.">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Privacy Policy – Life Bucket List">
+  <meta name="twitter:description" content="Your goals stay on your device. No accounts, no ads, no analytics.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%2300897B'/%3E%3Crect x='218' y='88' width='16' height='96' rx='5' fill='%23fff'/%3E%3Cpath d='M234 92 318 120 234 148Z' fill='%23FFC233'/%3E%3Cpath d='M92 392 226 170 296 286 340 218 420 392Z' fill='%23fff' stroke='%23fff' stroke-width='22' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy Policy – Life Bucket List",
+    "description": "Privacy Policy for the Life Bucket List Android app.",
+    "publisher": { "@type": "Organization", "name": "VERTEX LIT (PRIVATE) LIMITED" },
+    "about": { "@type": "MobileApplication", "name": "Life Bucket List", "operatingSystem": "Android", "applicationCategory": "LifestyleApplication" }
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary: #00897B;
+      --primary-dark: #00695C;
+      --primary-deep: #004D40;
+      --primary-soft: #E0F2F1;
+      --accent: #FFB300;
+      --accent-soft: #FFF4D6;
+      --bg: #F6F9F8;
+      --surface: #FFFFFF;
+      --text: #1C1B1F;
+      --text-2: #49454F;
+      --muted: #6B6F76;
+      --border: #DCE5E3;
+      --success: #2E7D32;
+      --success-soft: #E8F5E9;
+      --radius: 18px;
+      --shadow: 0 1px 2px rgba(0, 40, 35, .06), 0 8px 24px rgba(0, 40, 35, .07);
+      --header-h: 64px;
+      --font: "Roboto", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 16px); -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+    }
+    img, svg { display: block; max-width: 100%; }
+    a { color: var(--primary-dark); text-underline-offset: 3px; }
+    a:hover { color: var(--primary-deep); }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+
+    .skip-link {
+      position: absolute; left: 16px; top: -60px; z-index: 100;
+      background: var(--primary-deep); color: #fff; padding: 10px 16px; border-radius: 10px;
+      text-decoration: none; font-weight: 600; transition: top .2s;
+    }
+    .skip-link:focus { top: 12px; color: #fff; }
+
+    .container { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+
+    /* Header */
+    .site-header {
+      position: sticky; top: 0; z-index: 50;
+      height: var(--header-h);
+      background: rgba(0, 121, 107, .97);
+      backdrop-filter: saturate(140%) blur(10px);
+      -webkit-backdrop-filter: saturate(140%) blur(10px);
+      color: #fff;
+      box-shadow: 0 1px 0 rgba(255, 255, 255, .08), 0 4px 18px rgba(0, 40, 35, .18);
+    }
+    .site-header .container { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font-weight: 700; font-size: 18px; letter-spacing: -.2px; }
+    .brand:hover { color: #fff; }
+    .brand-logo { width: 34px; height: 34px; border-radius: 9px; box-shadow: 0 2px 8px rgba(0, 0, 0, .2); flex: none; }
+    .brand small { display: block; font-weight: 500; font-size: 12px; opacity: .8; letter-spacing: .2px; line-height: 1.1; }
+    .brand span { line-height: 1.15; }
+
+    .nav-toggle {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 44px; height: 44px; border: 0; border-radius: 12px;
+      background: rgba(255, 255, 255, .12); color: #fff; cursor: pointer;
+    }
+    .nav-toggle svg { width: 22px; height: 22px; }
+    .nav-toggle .icon-close { display: none; }
+    .nav-open .nav-toggle .icon-open { display: none; }
+    .nav-open .nav-toggle .icon-close { display: block; }
+
+    .site-nav {
+      position: fixed; left: 0; right: 0; top: var(--header-h);
+      max-height: calc(100vh - var(--header-h)); overflow-y: auto;
+      background: var(--surface); color: var(--text);
+      box-shadow: 0 16px 32px rgba(0, 40, 35, .18);
+      transform: translateY(-8px); opacity: 0; visibility: hidden;
+      transition: opacity .2s ease, transform .2s ease, visibility .2s;
+    }
+    .nav-open .site-nav { transform: none; opacity: 1; visibility: visible; }
+    .site-nav ul { list-style: none; margin: 0; padding: 8px 16px 16px; }
+    .site-nav a {
+      display: block; padding: 11px 12px; border-radius: 10px;
+      color: var(--text-2); text-decoration: none; font-weight: 500; font-size: 15px;
+    }
+    .site-nav a:hover, .site-nav a.active { background: var(--primary-soft); color: var(--primary-deep); }
+
+    /* Hero */
+    .hero {
+      position: relative; overflow: hidden;
+      background: linear-gradient(165deg, #00A392 0%, #00796B 52%, #004D40 100%);
+      color: #fff; padding: 56px 0 84px;
+    }
+    .hero::before, .hero::after {
+      content: ""; position: absolute; border-radius: 50%; background: rgba(255, 255, 255, .07); pointer-events: none;
+    }
+    .hero::before { width: 520px; height: 520px; left: -220px; top: -240px; }
+    .hero::after { width: 380px; height: 380px; right: -140px; bottom: -200px; }
+    .hero-ridge { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 90px; opacity: .12; pointer-events: none; }
+    .hero .container { position: relative; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255, 255, 255, .14); border: 1px solid rgba(255, 255, 255, .2);
+      padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 600; letter-spacing: .3px;
+    }
+    .eyebrow::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+    .hero h1 { font-size: clamp(34px, 7vw, 56px); line-height: 1.08; letter-spacing: -1px; margin: 18px 0 14px; font-weight: 800; }
+    .hero h1 em { font-style: normal; color: #FFC233; }
+    .hero p { font-size: clamp(16px, 2.4vw, 19px); max-width: 640px; margin: 0; color: rgba(255, 255, 255, .92); }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 24px; font-size: 14px; color: rgba(255, 255, 255, .85); }
+    .hero-meta strong { color: #fff; font-weight: 600; }
+
+    /* Summary cards */
+    .summary { margin-top: -52px; position: relative; z-index: 2; }
+    .summary-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+    .summary-card {
+      background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+      padding: 18px; display: flex; gap: 14px; align-items: flex-start;
+    }
+    .summary-icon {
+      flex: none; width: 44px; height: 44px; border-radius: 13px;
+      display: grid; place-items: center; background: var(--primary-soft); color: var(--primary-dark);
+    }
+    .summary-icon svg { width: 24px; height: 24px; }
+    .summary-card h2 { font-size: 16px; margin: 0 0 2px; line-height: 1.3; }
+    .summary-card p { margin: 0; font-size: 14px; color: var(--text-2); line-height: 1.5; }
+
+    /* Layout */
+    .layout { display: grid; grid-template-columns: 1fr; gap: 28px; padding: 36px 0 64px; }
+    .toc { display: none; }
+
+    .policy-section {
+      background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+      padding: 24px 20px; margin-bottom: 16px;
+    }
+    .policy-section h2 {
+      display: flex; align-items: center; gap: 12px;
+      font-size: clamp(20px, 3.4vw, 24px); line-height: 1.25; letter-spacing: -.3px; margin: 0 0 12px;
+    }
+    .section-num {
+      flex: none; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px;
+      background: var(--primary-soft); color: var(--primary-dark); font-size: 15px; font-weight: 700;
+    }
+    .policy-section h3 { font-size: 17px; margin: 20px 0 6px; color: var(--primary-deep); }
+    .policy-section p { margin: 0 0 12px; color: var(--text-2); }
+    .policy-section p:last-child { margin-bottom: 0; }
+    .policy-section ul { margin: 0 0 12px; padding-left: 0; list-style: none; }
+    .policy-section li { position: relative; padding-left: 24px; margin-bottom: 8px; color: var(--text-2); }
+    .policy-section li::before {
+      content: ""; position: absolute; left: 4px; top: .62em; width: 8px; height: 8px; border-radius: 50%; background: var(--primary);
+    }
+    .policy-section strong { color: var(--text); }
+
+    .callout {
+      display: flex; gap: 12px; align-items: flex-start;
+      border-radius: 14px; padding: 14px 16px; margin: 14px 0;
+      background: var(--success-soft); color: #1B5E20; font-size: 15px;
+    }
+    .callout svg { flex: none; width: 22px; height: 22px; margin-top: 1px; }
+    .callout.note { background: var(--accent-soft); color: #6D4C00; }
+    .callout p { margin: 0; color: inherit; }
+
+    .table-wrap { overflow-x: auto; margin: 12px 0; border: 1px solid var(--border); border-radius: 14px; }
+    table { width: 100%; border-collapse: collapse; font-size: 15px; min-width: 520px; }
+    caption { text-align: left; padding: 12px 14px 0; font-weight: 600; color: var(--text); }
+    th, td { text-align: left; padding: 12px 14px; vertical-align: top; border-bottom: 1px solid var(--border); }
+    th { background: #F1F6F5; font-size: 13px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); }
+    tr:last-child td { border-bottom: 0; }
+    td { color: var(--text-2); }
+
+    .status-list { display: grid; grid-template-columns: 1fr; gap: 8px; margin: 12px 0; padding: 0; list-style: none; }
+    .status-list li {
+      display: flex; align-items: center; gap: 10px; padding: 10px 12px; margin: 0;
+      border: 1px solid var(--border); border-radius: 12px; background: #FBFDFC; font-size: 15px;
+    }
+    .status-list li::before { display: none; }
+    .tag {
+      margin-left: auto; flex: none; font-size: 12px; font-weight: 700; letter-spacing: .3px;
+      padding: 3px 10px; border-radius: 999px; background: var(--success-soft); color: var(--success);
+    }
+
+    .contact-card {
+      display: grid; gap: 12px; margin-top: 8px;
+      background: linear-gradient(135deg, var(--primary-soft), #F3FAF9);
+      border: 1px solid #CDE7E3; border-radius: 16px; padding: 18px;
+    }
+    .contact-row { display: flex; gap: 12px; align-items: center; }
+    .contact-row svg { flex: none; width: 22px; height: 22px; color: var(--primary-dark); }
+    .contact-row span { display: block; font-size: 13px; color: var(--muted); line-height: 1.3; }
+    .contact-row strong, .contact-row a { font-size: 16px; font-weight: 600; word-break: break-word; }
+
+    /* Footer */
+    .site-footer { background: var(--primary-deep); color: rgba(255, 255, 255, .85); padding: 32px 0; font-size: 14px; }
+    .site-footer .container { display: flex; flex-direction: column; gap: 14px; }
+    .site-footer .brand { font-size: 17px; }
+    .site-footer p { margin: 0; }
+    .site-footer a { color: #fff; }
+
+    .to-top {
+      position: fixed; right: 16px; bottom: 16px; z-index: 40;
+      width: 48px; height: 48px; border-radius: 16px; border: 0; cursor: pointer;
+      background: var(--primary); color: #fff; box-shadow: 0 8px 20px rgba(0, 77, 64, .35);
+      display: grid; place-items: center;
+      opacity: 0; visibility: hidden; transform: translateY(10px);
+      transition: opacity .2s, transform .2s, visibility .2s, background .2s;
+    }
+    .to-top:hover { background: var(--primary-dark); }
+    .to-top.show { opacity: 1; visibility: visible; transform: none; }
+    .to-top svg { width: 22px; height: 22px; }
+
+    /* Motion */
+    .reveal { opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .5s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+    .no-js .reveal { opacity: 1; transform: none; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .reveal, .reveal.in { opacity: 1; transform: none; transition: none; }
+      .site-nav, .to-top { transition: none; }
+    }
+
+    @media (min-width: 640px) {
+      .container { padding: 0 24px; }
+      .summary-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+      .policy-section { padding: 30px 32px; }
+      .status-list { grid-template-columns: repeat(2, 1fr); }
+      .contact-card { grid-template-columns: repeat(2, 1fr); padding: 22px; }
+      .site-footer .container { flex-direction: row; align-items: center; justify-content: space-between; }
+    }
+
+    @media (min-width: 960px) {
+      .nav-toggle { display: none; }
+      .site-nav {
+        position: static; max-height: none; overflow: visible; background: transparent; box-shadow: none;
+        transform: none; opacity: 1; visibility: visible;
+      }
+      .site-nav ul { display: flex; gap: 4px; padding: 0; }
+      .site-nav a { color: rgba(255, 255, 255, .88); padding: 8px 12px; font-size: 14px; }
+      .site-nav a:hover, .site-nav a.active { background: rgba(255, 255, 255, .14); color: #fff; }
+      .hero { padding: 72px 0 104px; }
+      .summary-grid { grid-template-columns: repeat(4, 1fr); }
+      .layout { grid-template-columns: 260px 1fr; gap: 32px; padding-top: 44px; }
+      .toc { display: block; }
+      .toc-inner {
+        position: sticky; top: calc(var(--header-h) + 20px);
+        background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 12px;
+        max-height: calc(100vh - var(--header-h) - 40px); overflow-y: auto;
+      }
+      .toc h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .8px; color: var(--muted); margin: 0 12px 8px; }
+      .toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+      .toc li { counter-increment: toc; }
+      .toc a {
+        display: flex; gap: 10px; padding: 8px 12px; border-radius: 10px; font-size: 14px; line-height: 1.35;
+        color: var(--text-2); text-decoration: none; transition: background .15s, color .15s;
+      }
+      .toc a::before { content: counter(toc); flex: none; width: 20px; color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
+      .toc a:hover { background: var(--bg); color: var(--text); }
+      .toc a.active { background: var(--primary-soft); color: var(--primary-deep); font-weight: 600; }
+      .toc a.active::before { color: var(--primary-dark); }
+    }
+
+    @media print {
+      .site-header, .toc, .to-top, .skip-link, .hero-ridge { display: none !important; }
+      .hero { background: none; color: #000; padding: 0 0 16px; }
+      .hero p, .hero-meta, .hero-meta strong { color: #000; }
+      .eyebrow { display: none; }
+      .summary { margin-top: 0; }
+      .policy-section, .summary-card { box-shadow: none; border: 1px solid #ccc; break-inside: avoid; }
+      .reveal { opacity: 1; transform: none; }
+      .layout { grid-template-columns: 1fr; }
+      .site-footer { background: none; color: #000; }
+      .site-footer a { color: #000; }
+    }
+  </style>
+</head>
+<body class="no-js">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container">
+      <a class="brand" href="#top" aria-label="Life Bucket List, back to top">
+        <svg class="brand-logo" viewBox="0 0 512 512" aria-hidden="true">
+          <defs>
+            <linearGradient id="logoGrad" x1="0" y1="0" x2=".35" y2="1">
+              <stop offset="0" stop-color="#00A392"/><stop offset=".55" stop-color="#00796B"/><stop offset="1" stop-color="#004D40"/>
+            </linearGradient>
+          </defs>
+          <rect width="512" height="512" rx="112" fill="url(#logoGrad)"/>
+          <rect x="218" y="88" width="16" height="96" rx="5" fill="#fff"/>
+          <path d="M234 92 318 120 234 148Z" fill="#FFC233" stroke="#FFC233" stroke-width="8" stroke-linejoin="round"/>
+          <path d="M92 392 226 170 296 286 340 218 420 392Z" fill="#fff" stroke="#fff" stroke-width="22" stroke-linejoin="round"/>
+        </svg>
+        <span>Life Bucket List<small>Privacy Policy</small></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#information-we-collect">Data we collect</a></li>
+          <li><a href="#permissions">Permissions</a></li>
+          <li><a href="#third-parties">Third parties</a></li>
+          <li><a href="#your-rights">Your rights</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-labelledby="page-title">
+    <div class="container">
+      <span class="eyebrow">Life Bucket List for Android</span>
+      <h1 id="page-title">Your goals stay <em>yours</em>.</h1>
+      <p>This Privacy Policy explains how the Life Bucket List app handles your information. In short: everything you enter is stored only on your device. We don't collect it, see it or share it.</p>
+      <div class="hero-meta">
+        <span>Effective date: <strong><time datetime="2026-11-16">November 16, 2026</time></strong></span>
+        <span>Last updated: <strong><time datetime="2026-11-16">November 16, 2026</time></strong></span>
+      </div>
+    </div>
+    <svg class="hero-ridge" viewBox="0 0 1080 90" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" d="M0 90V62L190 30 330 53 520 13 720 56 860 36 1080 69V90Z"/></svg>
+  </section>
+
+  <section class="summary" aria-label="Privacy at a glance">
+    <div class="container">
+      <div class="summary-grid">
+        <article class="summary-card reveal">
+          <div class="summary-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 1H7c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 18H7V5h10v14z"/></svg>
+          </div>
+          <div><h2>Stored on your device</h2><p>Your goals are saved in a private database on your phone.</p></div>
+        </article>
+        <article class="summary-card reveal">
+          <div class="summary-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div><h2>No account needed</h2><p>No sign-up, no login and no personal details requested.</p></div>
+        </article>
+        <article class="summary-card reveal">
+          <div class="summary-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-4.42 3.58-8 8-8 1.85 0 3.55.63 4.9 1.69L5.69 16.9A7.902 7.902 0 0 1 4 12zm8 8c-1.85 0-3.55-.63-4.9-1.69L18.31 7.1A7.902 7.902 0 0 1 20 12c0 4.42-3.58 8-8 8z"/></svg>
+          </div>
+          <div><h2>No ads or tracking</h2><p>No advertising, analytics or crash-reporting tools.</p></div>
+        </article>
+        <article class="summary-card reveal">
+          <div class="summary-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/></svg>
+          </div>
+          <div><h2>No internet access</h2><p>The app doesn't request internet access, so it can't send your data to us.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="container layout">
+    <aside class="toc" aria-label="On this page">
+      <div class="toc-inner">
+        <h2>On this page</h2>
+        <ol>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#information-we-collect">Information We Collect</a></li>
+          <li><a href="#how-information-is-used">How Information Is Used</a></li>
+          <li><a href="#permissions">App Permissions</a></li>
+          <li><a href="#device-backup">Device Backup</a></li>
+          <li><a href="#third-parties">Third-Party Services</a></li>
+          <li><a href="#data-sharing">Data Sharing</a></li>
+          <li><a href="#data-retention">Data Retention and Deletion</a></li>
+          <li><a href="#data-security">Data Security</a></li>
+          <li><a href="#childrens-privacy">Children's Privacy</a></li>
+          <li><a href="#your-rights">Your Rights and Choices</a></li>
+          <li><a href="#cookies">Cookies</a></li>
+          <li><a href="#changes">Changes to This Policy</a></li>
+          <li><a href="#contact">Contact Information</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main id="main" tabindex="-1">
+      <section class="policy-section reveal" id="introduction" aria-labelledby="h-introduction">
+        <h2 id="h-introduction"><span class="section-num" aria-hidden="true">1</span>Introduction</h2>
+        <p>This Privacy Policy applies to <strong>Life Bucket List</strong> (package name <code>com.goalvault.bucketlist</code>), an Android app that helps you create, organize, track and complete your life goals. The app is provided by <strong>VERTEX LIT (PRIVATE) LIMITED</strong> ("we", "us" or "our").</p>
+        <p>We built Life Bucket List to work entirely on your device. This policy explains what information the app handles, where it is kept, and the choices you have. By using the app, you agree to the practices described here.</p>
+      </section>
+
+      <section class="policy-section reveal" id="information-we-collect" aria-labelledby="h-collect">
+        <h2 id="h-collect"><span class="section-num" aria-hidden="true">2</span>Information We Collect</h2>
+        <div class="callout">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+          <p><strong>We do not collect any personal or non-personal information from you.</strong> We have no servers that receive data from the app, and we never have access to the goals you create.</p>
+        </div>
+
+        <h3>Information you enter in the app</h3>
+        <p>When you use Life Bucket List, you may enter information about your goals. This information is stored <strong>only on your device</strong>, in the app's private database, and is never sent to us:</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Goal information stored on your device</caption>
+            <thead><tr><th scope="col">Information</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>Goal title and optional description</td><td>Shows the goal on your list</td></tr>
+              <tr><td>Category (for example Travel or Career) and priority</td><td>Organizes your goals and powers the Insights screen</td></tr>
+              <tr><td>Optional target date</td><td>Shows the date and the days left until it</td></tr>
+              <tr><td>Completion status, creation date and completion date</td><td>Moves completed goals to History and calculates your progress</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Please avoid entering sensitive personal information (such as health, financial or identity details) in your goals. Although it stays on your device, anyone with access to your unlocked phone could see it.</p>
+
+        <h3>Information we do not collect</h3>
+        <ul class="status-list">
+          <li>Name, email address or phone number <span class="tag">Not collected</span></li>
+          <li>Location <span class="tag">Not collected</span></li>
+          <li>Contacts, photos, files or media <span class="tag">Not collected</span></li>
+          <li>Device identifiers or advertising ID <span class="tag">Not collected</span></li>
+          <li>Usage analytics or app activity <span class="tag">Not collected</span></li>
+          <li>Crash logs or diagnostics <span class="tag">Not collected</span></li>
+        </ul>
+      </section>
+
+      <section class="policy-section reveal" id="how-information-is-used" aria-labelledby="h-use">
+        <h2 id="h-use"><span class="section-num" aria-hidden="true">3</span>How Information Is Used</h2>
+        <p>The goal information you enter is used only by the app, on your device, to:</p>
+        <ul>
+          <li>Display, edit and delete your goals.</li>
+          <li>Mark goals as complete and show them in your History.</li>
+          <li>Calculate the statistics shown on the Insights screen, such as your progress by category and priority.</li>
+          <li>Show target dates and how many days are left.</li>
+        </ul>
+        <p>We do not use your information for advertising, profiling or any other purpose, because it never leaves your device for us.</p>
+      </section>
+
+      <section class="policy-section reveal" id="permissions" aria-labelledby="h-permissions">
+        <h2 id="h-permissions"><span class="section-num" aria-hidden="true">4</span>App Permissions</h2>
+        <p>Life Bucket List does <strong>not</strong> request any sensitive Android permissions. In particular, the app does not request access to:</p>
+        <ul class="status-list">
+          <li>Internet <span class="tag">Not requested</span></li>
+          <li>Location <span class="tag">Not requested</span></li>
+          <li>Camera or microphone <span class="tag">Not requested</span></li>
+          <li>Contacts <span class="tag">Not requested</span></li>
+          <li>Photos, media or files <span class="tag">Not requested</span></li>
+          <li>Notifications <span class="tag">Not requested</span></li>
+        </ul>
+        <p>Because the app has no internet permission, it cannot connect to the internet or transmit your data anywhere on its own.</p>
+      </section>
+
+      <section class="policy-section reveal" id="device-backup" aria-labelledby="h-backup">
+        <h2 id="h-backup"><span class="section-num" aria-hidden="true">5</span>Device Backup</h2>
+        <p>Life Bucket List supports Android's built-in backup feature. If you have turned on backup for your device (for example, backup to your Google Account), Android may include the app's data, including your goals, in that backup so it can be restored when you set up a new phone or reinstall the app.</p>
+        <p>This backup is performed by Android and your backup provider, not by us. We cannot access these backups. Backups are handled under the privacy policy of your backup provider, such as the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+      </section>
+
+      <section class="policy-section reveal" id="third-parties" aria-labelledby="h-third">
+        <h2 id="h-third"><span class="section-num" aria-hidden="true">6</span>Third-Party Services</h2>
+        <p>Life Bucket List does not include any third-party analytics, advertising, crash-reporting, authentication, payment, cloud or AI services. It does not use Firebase, Google Sign-In or any similar service.</p>
+        <p>The app is built with standard Android libraries from Google (Android Jetpack and Material Components). These libraries run on your device and do not collect or send your information.</p>
+
+        <h3>Links and actions that open other apps</h3>
+        <p>The Settings screen contains three options that hand you over to another app. The app itself sends no information when you use them:</p>
+        <ul>
+          <li><strong>Rate Us</strong> opens the app's page in the Google Play Store.</li>
+          <li><strong>Privacy Policy</strong> opens this page in your web browser.</li>
+          <li><strong>Share App</strong> opens Android's share menu with a short message and a link to the app on Google Play. Nothing is shared unless you choose an app and send the message yourself. Your goals are never included.</li>
+        </ul>
+        <p>Once you are in another app, such as Google Play, your browser or a messaging app, that app's own privacy policy applies. We encourage you to review those policies.</p>
+      </section>
+
+      <section class="policy-section reveal" id="data-sharing" aria-labelledby="h-sharing">
+        <h2 id="h-sharing"><span class="section-num" aria-hidden="true">7</span>Data Sharing</h2>
+        <p>We do not sell, rent, trade or share your information with anyone, because we do not collect it. Your goals are not transferred to us or to any third party by the app.</p>
+      </section>
+
+      <section class="policy-section reveal" id="data-retention" aria-labelledby="h-retention">
+        <h2 id="h-retention"><span class="section-num" aria-hidden="true">8</span>Data Retention and Deletion</h2>
+        <p>Your goals stay on your device until you delete them. You can remove your data at any time:</p>
+        <ul>
+          <li><strong>Delete a single goal</strong> with the delete button on its card, on the Home or History screen. Deleted goals cannot be recovered from within the app.</li>
+          <li><strong>Delete all app data</strong> by going to your phone's Settings &gt; Apps &gt; Life Bucket List &gt; Storage &gt; Clear storage.</li>
+          <li><strong>Uninstall the app</strong>, which removes all of its data from your device.</li>
+        </ul>
+        <p>If your device backup is turned on, a copy of the app's data may remain in your backup until your backup provider updates or deletes it. You can manage or delete backups through your device or backup provider settings.</p>
+      </section>
+
+      <section class="policy-section reveal" id="data-security" aria-labelledby="h-security">
+        <h2 id="h-security"><span class="section-num" aria-hidden="true">9</span>Data Security</h2>
+        <p>Your goals are stored in the app's private storage on your device. Android's app sandbox prevents other apps from reading this storage. Because the app does not send your data over the internet, it is not exposed to risks from data transmission or server storage.</p>
+        <p>The security of the data on your phone also depends on your device. We recommend protecting your phone with a screen lock and keeping its software up to date. No method of storage is completely secure, and we cannot guarantee absolute security.</p>
+      </section>
+
+      <section class="policy-section reveal" id="childrens-privacy" aria-labelledby="h-children">
+        <h2 id="h-children"><span class="section-num" aria-hidden="true">10</span>Children's Privacy</h2>
+        <p>Life Bucket List is not directed at children under the age of 13. We do not knowingly collect personal information from anyone, including children, because the app does not collect personal information at all. If you are a parent or guardian and have questions about your child's use of the app, please contact us using the details below.</p>
+      </section>
+
+      <section class="policy-section reveal" id="your-rights" aria-labelledby="h-rights">
+        <h2 id="h-rights"><span class="section-num" aria-hidden="true">11</span>Your Rights and Choices</h2>
+        <p>Depending on where you live, you may have rights over your personal information, such as the right to access, correct, delete or move it. Because your goals are stored only on your device and we hold no copy, you can exercise these rights directly in the app:</p>
+        <ul>
+          <li><strong>Access:</strong> view all your goals on the Home, History and Insights screens.</li>
+          <li><strong>Correct:</strong> edit any goal at any time.</li>
+          <li><strong>Delete:</strong> delete individual goals, clear the app's storage, or uninstall the app.</li>
+          <li><strong>Control backups:</strong> turn device backup on or off in your phone's settings.</li>
+        </ul>
+        <p>If you have any questions about your privacy rights, please contact us.</p>
+      </section>
+
+      <section class="policy-section reveal" id="cookies" aria-labelledby="h-cookies">
+        <h2 id="h-cookies"><span class="section-num" aria-hidden="true">12</span>Cookies and Similar Technologies</h2>
+        <p>The Life Bucket List app does not use cookies, web beacons or similar tracking technologies. This Privacy Policy page does not set cookies or use tracking scripts either.</p>
+      </section>
+
+      <section class="policy-section reveal" id="changes" aria-labelledby="h-changes">
+        <h2 id="h-changes"><span class="section-num" aria-hidden="true">13</span>Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time, for example if we add new features to the app. When we do, we will post the updated policy on this page and change the "Last updated" date at the top. If a change significantly affects how the app handles your information, we will make reasonable efforts to let you know, such as through the app or its Google Play listing.</p>
+        <p>We encourage you to review this page periodically. Your continued use of the app after changes are posted means you accept the updated policy.</p>
+      </section>
+
+      <section class="policy-section reveal" id="contact" aria-labelledby="h-contact">
+        <h2 id="h-contact"><span class="section-num" aria-hidden="true">14</span>Contact Information</h2>
+        <p>If you have any questions, concerns or requests about this Privacy Policy or the app, please contact us:</p>
+        <div class="contact-card">
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/></svg>
+            <div><span>Company</span><strong>VERTEX LIT (PRIVATE) LIMITED</strong></div>
+          </div>
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <div><span>Email</span><a href="mailto:info.primeaxis66@gmail.com">info.primeaxis66@gmail.com</a></div>
+          </div>
+        </div>
+        <p style="margin-top:14px">Effective date: <time datetime="2026-11-16">November 16, 2026</time></p>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a class="brand" href="#top">Life Bucket List</a>
+      <p>&copy; <span id="year">2026</span> VERTEX LIT (PRIVATE) LIMITED. All rights reserved.</p>
+      <p><a href="mailto:info.primeaxis66@gmail.com">info.primeaxis66@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
+  </button>
+
+  <script>
+    (function () {
+      'use strict';
+      var body = document.body;
+      body.classList.remove('no-js');
+
+      var year = document.getElementById('year');
+      if (year) year.textContent = String(new Date().getFullYear());
+
+      // Mobile navigation
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      function setNav(open) {
+        body.classList.toggle('nav-open', open);
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      }
+      toggle.addEventListener('click', function () { setNav(!body.classList.contains('nav-open')); });
+      nav.addEventListener('click', function (e) { if (e.target.closest('a')) setNav(false); });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && body.classList.contains('nav-open')) { setNav(false); toggle.focus(); }
+      });
+      document.addEventListener('click', function (e) {
+        if (body.classList.contains('nav-open') && !e.target.closest('.site-header')) setNav(false);
+      });
+      window.matchMedia('(min-width: 960px)').addEventListener('change', function (mq) { if (mq.matches) setNav(false); });
+
+      // Reveal on scroll
+      var reveals = document.querySelectorAll('.reveal');
+      var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!('IntersectionObserver' in window) || reduceMotion) {
+        reveals.forEach(function (el) { el.classList.add('in'); });
+      } else {
+        var revealObserver = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) { entry.target.classList.add('in'); revealObserver.unobserve(entry.target); }
+          });
+        }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+        reveals.forEach(function (el) { revealObserver.observe(el); });
+      }
+
+      // Highlight the section being read in the table of contents and header nav
+      var links = document.querySelectorAll('.toc a, .site-nav a');
+      var sections = Array.prototype.map.call(document.querySelectorAll('main section[id]'), function (s) { return s; });
+      function setActive(id) {
+        links.forEach(function (a) {
+          var on = a.getAttribute('href') === '#' + id;
+          a.classList.toggle('active', on);
+          if (on) a.setAttribute('aria-current', 'location'); else a.removeAttribute('aria-current');
+        });
+      }
+      var toTop = document.querySelector('.to-top');
+      var ticking = false;
+      function onScroll() {
+        var offset = window.scrollY + 120;
+        var current = sections[0].id;
+        sections.forEach(function (s) { if (s.offsetTop <= offset) current = s.id; });
+        if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) current = sections[sections.length - 1].id;
+        setActive(current);
+        toTop.classList.toggle('show', window.scrollY > 600);
+        ticking = false;
+      }
+      window.addEventListener('scroll', function () {
+        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
+      }, { passive: true });
+      onScroll();
+
+      toTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+        document.querySelector('.brand').focus();
+      });
+    })();
+  </script>
+</body>
+</html>
